@@ -1,0 +1,25 @@
+{
+  "name": "mosaica-be",
+  "version": "1.0.0",
+  "description": "backend for mosaica",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier-format": "prettier --write \"*/*.js\" .prettierrc.json",
+    "lint": "eslint  \"*/*.js\"",
+    "lint:fix": "eslint --fix \"*/*.js\""
+  },
+  "author": "Volodymyr",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "eslint": "^8.30.0",
+    "express": "^4.18.2",
+    "firebase": "^9.15.0",
+    "mongoose": "^6.8.0",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.1"
+  }
+}
