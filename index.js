@@ -91,6 +91,6 @@ app.post(
   // }
 );
 
-app.listen(8080, function () {
-  console.log('app listening on http://localhost:8080');
+app.listen(process.env.PORT || 5000, '0.0.0.0', function () {
+  console.log('Server started.....');
 });
